@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
 
         findViewById<View>(R.id.button).setOnClickListener {
-                CalculateBirthDate()
+                CalculateBirthDate();
             }
         }
 
